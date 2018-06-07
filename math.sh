@@ -1,5 +1,14 @@
 #!/bin/bash
+#initial value of counter is set to 3
+car=10
 
-let a=5%2
+while  [ $car -le 100 ]
 
-echo $a
+do
+echo 
+    echo $car
+        ((car= $car +10))
+done
+
+echo "All done"
+
